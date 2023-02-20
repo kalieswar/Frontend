@@ -42,6 +42,7 @@ export default function Header() {
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
                             <Dropdown.Item onClick={()=> {navigate('/myprofile')}} className='text-warning'>My Profile</Dropdown.Item>
+                            <Dropdown.Item onClick={()=> {navigate('/orders')}} className='text-warning'>Orders</Dropdown.Item>
                             <Dropdown.Item onClick={logoutHandler} className='text-danger'>Logout</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>

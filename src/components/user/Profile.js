@@ -27,9 +27,9 @@ export default function Profile() {
                 <p>{user.email}</p>
                 <h4>Joined</h4>
                 <p>{String(user.createdAt).substring(0,10)}</p>
-                <a href="javascript;" className="btn btn-danger mt-5" style={{ display: "block", width: "100%" }}>
+                <Link to="/orders" className="btn btn-danger mt-5" style={{ display: "block", width: "100%" }}>
                     My Orders
-                </a>
+                </Link>
                 <Link to='/myprofile/update/password' className="btn btn-primary mt-3" style={{ display: "block", width: "100%" }}>
                     Change Password
                 </Link>
