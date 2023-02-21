@@ -396,3 +396,25 @@ nav {
   background: #23fa23;
   color: #fff;
 }
+.star:first-child {
+  padding-left: 0;
+}
+.star {
+  display: inline;
+  list-style: none;
+  font-size: 3rem;
+  padding-left: 0.9rem;
+  color: #e3e3e3;
+}
+.stars {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+.orange{
+  color: #23fa23;
+}
+.yellow{
+  color: #7ffe69;
+}
