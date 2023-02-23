@@ -23,10 +23,10 @@ export default function Sidebar() {
                     </li>
 
                     <li>
-                        <Link href="/admin/users"><i className="fa fa-users"></i> Users</Link>
+                        <Link to="/admin/users"><i className="fa fa-users"></i> Users</Link>
                     </li>
                     <li>
-                        <Link href="/admin/reviews"><i className="fa fa-users"></i> Reviews</Link>
+                        <Link to="/admin/reviews"><i className="fa fa-users"></i> Reviews</Link>
                     </li>
 
                 </ul>
