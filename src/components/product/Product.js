@@ -1,11 +1,14 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Product({product, col}) {
+    const navigate = useNavigate()
     return (
         <div className={`col-sm-12 col-md-6 col-lg-${col} my-3`}>
-            <div className="card p-3 rounded">
+            <div className="card p-3 rounded" onClick={()=>navigate(`/product/${product._id}`)} style={{cursor:"pointer"}}>
                 <img
+                    onClick={()=>navigate(`/product/${product._id}`)}
                     className="card-img-top mx-auto"
+                    style={{cursor:"pointer"}}
                     alt={product.name}
                     src={product.images[0].image}
                 />
